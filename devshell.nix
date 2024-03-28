@@ -42,6 +42,8 @@ in {
       pkgs.postgresql_16_jit
       pkgs.pgcli
 
+      # pkgs.haskellPackages.postgrest # Broken TT
+
       # Additional Zig tools.
       pkgs.zls # Zig Language Server
     ];
